@@ -1,4 +1,4 @@
-# Goal
+# CHILIpReading
 
 The goal of this project is to have a robot using real-time lip reading to increase the accuracy of audio speech recognition.
 
