@@ -4,6 +4,8 @@ The goal of this project is to have a robot using real-time lip reading to incre
 
 To do that, two computers are used. One will be qualified as laptop which represent the robot and will mainly manage the data collection and the other one, the computer,has a GPU and will do the audio visual speech recognition (AVSR).
 
+To connect the computers ros environments, you can follow [Husarnet tutorial](https://husarion.com/tutorials/ros-tutorials/5-running-ros-on-multiple-machines/)
+
 # Laptop repos overview
 
 ## camera
