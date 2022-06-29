@@ -1,27 +1,33 @@
 # CHILIpReading
 
-The goal of this project is to have a robot using real-time lip reading to increase the accuracy of audio speech recognition.
+The goal of this project is to achieve a distributed system for fast and accurate audio visual speech recognition (AVSR).
 
-To do that, two computers are used. One will be qualified as laptop which represent the robot and will mainly manage the data collection and the other one, the computer,has a GPU and will do the audio visual speech recognition (AVSR).
+Two computers are used. A robot that will collect the data and a server that will do heavy processing step.
 
 To connect the computers ros environments, you can follow [Husarnet tutorial](https://husarion.com/tutorials/ros-tutorials/5-running-ros-on-multiple-machines/)
 
-# Laptop repos overview
+# Robot Overview
 
-## camera
+## Visual module
 It will take images and send them in the wanted format through a ros topic to the computer.
 
-## microphone
+## Audio module
 It will take audio pulse and send them through a ros topic to the computer.
 
-# computer repos overview
+# Server Overview
 
-## state_machine
+## State Manager
 It decides when to record or when to process the datas. It also contains and load the config as rosparam for the rest of the system.
 
-## AVSR
+## Video module
 When the processing starts, it builds the video and process it using the PMaConformers repo.
 
-# Lipreading - PMaConformers repo
+# Visual speech recognition (VSR)
+This is a forked repositories comming from [[1]](#1). It will be use for the VSR part.
 
-This is a forked repositories comming from [Pingchuan Ma work](https://github.com/mpc001/Visual_Speech_Recognition_for_Multiple_Languages). It will be use for the AVSR part.
+
+## References
+<a id="1">[1]</a> 
+Ma, Pingchuan and Petridis, Stavros and Pantic, Maja (2021). 
+[End-to-end audio-visual speech recognition with conformers](https://github.com/mpc001/Visual_Speech_Recognition_for_Multiple_Languages)
+ICASSP 2021-2021 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP), 7613-7617.
