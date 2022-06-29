@@ -11,21 +11,24 @@ To connect the computers ros environments, you can follow [Husarnet tutorial](ht
 # Robot Overview
 
 ## Visual module
-It will take images and send them in the wanted format through a ros topic to the computer.
+Responsible of taking images and to make sure that their transfer to the Video Module was correctly done.
 
 ## Audio module
-It will take audio pulse and send them through a ros topic to the computer.
+Responsible of capturing sounds and to make sure that their transfer to the Video Module was correctly done.
+
+## Evaluator
+Feature added so that, instead of using the camera and microphone input, the system will use an mp4 video input. It will also take care of saving the processing time and results obtained.
 
 # Server Overview
 
 ## State Manager
-It decides when to record or when to process the datas. It also contains and load the config as rosparam for the rest of the system.
+Ensures that the actual state is well completed before deciding and setting the correct following state. It keeps the process timeline correct at all time and avoid being in non-predicted states.
 
 ## Video module
-When the processing starts, it builds the video and process it using the PMaConformers repo.
+First responsible of receiving the images and sounds sent by the Visual and Audio modules to build a video out of them and then of using the video to get the prediction of the speech of it.
 
 # Visual speech recognition (VSR)
-This is a forked repositories comming from [[1]](#1). It will be use for the VSR part.
+This is a forked repositories comming from [[1]](#1). It is used for the VSR part in the Video module.
 
 
 ## References
