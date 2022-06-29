@@ -10,11 +10,12 @@ To connect the computers ros environments, you can follow [Husarnet tutorial](ht
 
 # Table of Contents  
 [Robot Overview](#ro)  
-[Server Overview](#so)
-[Visual speech recognition](#vsr)
-[Installation](#installation)
+[Server Overview](#so)  
+[Visual speech recognition](#vsr)   
+[Installation](#installation)   
 
-<a name="ro"/>
+<a name="ro"/> 
+
 # Robot Overview
 
 ## Visual module
@@ -27,6 +28,7 @@ Responsible of capturing sounds and to make sure that their transfer to the Vide
 Feature added so that, instead of using the camera and microphone input, the system will use an mp4 video input. It will also take care of saving the processing time and results obtained.
 
 <a name="so"/>
+
 # Server Overview
 
 ## State Manager
@@ -36,11 +38,13 @@ Ensures that the actual state is well completed before deciding and setting the 
 First responsible of receiving the images and sounds sent by the Visual and Audio modules to build a video out of them and then of using the video to get the prediction of the speech of it.
 
 <a name="vsr"/>
+
 # Visual speech recognition (VSR)
 This is a forked repositories comming from [[1]](#1). It is used for the VSR part in the Video module.
 
 
 <a name="installation"/>
+
 # Installation
 The following catkin workspace folder structure was adopted for this project:
 
