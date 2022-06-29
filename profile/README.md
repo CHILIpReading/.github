@@ -6,7 +6,8 @@ Two computers are used. A robot that will collect the data and a server that wil
 
 To connect the computers ros environments, you can follow [Husarnet tutorial](https://husarion.com/tutorials/ros-tutorials/5-running-ros-on-multiple-machines/)
 
-![Distibuted Structure image](./../images/distributed_structure.png)
+![Distibuted Structure Graph](https://raw.githubusercontent.com/CHILIpReading/.github/main/images/distributed_structure.png)
+
 
 # Table of Contents  
 [Robot Overview](#ro)  
