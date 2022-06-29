@@ -4,9 +4,11 @@ The goal of this project is to achieve a distributed system for fast and accurat
 
 Two computers are used. A robot that will collect the data and a server that will do heavy processing step.
 
-To connect the computers ros environments, you can follow [Husarnet tutorial](https://husarion.com/tutorials/ros-tutorials/5-running-ros-on-multiple-machines/)
+To connect the computers ros environments, you can follow [Husarnet tutorial](https://husarion.com/tutorials/ros-tutorials/5-running-ros-on-multiple-machines/).
 
 ![Distibuted Structure Graph](https://raw.githubusercontent.com/CHILIpReading/.github/main/images/distributed_structure.png)
+
+For more information, see the report of the [project](https://github.com/CHILIpReading/.github/blob/main/report/David%20Roch%20Master%20thesis%20Distributed%20system%20for%20fast%20and%0Aaccurate%20visual%20speech%20recognition.pdf).
 
 
 # Table of Contents  
