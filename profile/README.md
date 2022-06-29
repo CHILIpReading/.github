@@ -14,6 +14,7 @@ To connect the computers ros environments, you can follow [Husarnet tutorial](ht
 [Server Overview](#so)  
 [Visual speech recognition](#vsr)   
 [Installation](#installation)   
+[Launch](#launch)   
 
 <a name="ro"/> 
 
@@ -47,7 +48,7 @@ This is a forked repositories comming from [[1]](#1). It is used for the VSR par
 <a name="installation"/>
 
 # Installation
-The following catkin workspace folder structure was adopted for this project:
+The following catkin workspace folder structure was adopted for this project on both computers:
 
 ```bash
 ├── build
@@ -71,6 +72,21 @@ To install the python dependancies, you can clone the .github repo and execute
 pip install -r requirements.txt
 ```
 
+<a name="launch"/> 
+
+# Launch
+To launch the full system, execute the following command (each command should be run on the computer wanted):
+```cmd
+roslaunch ...
+rosrun ...
+rosrun ...
+rosrun ...
+```
+
+If you also want to run the Evaluator:
+```cmd
+rosrun ...
+```
 
 ## References
 <a id="1">[1]</a> 
