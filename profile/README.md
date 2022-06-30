@@ -79,15 +79,15 @@ pip install -r requirements.txt
 # Launch
 To launch the full system, execute the following command (each command should be run on the computer wanted):
 ```cmd
-roslaunch ...
-rosrun ...
-rosrun ...
-rosrun ...
+roslaunch state_manager launchfile.launch
+rosrun video_module video.py 
+rosrun visual_module visual_module.py
+rosrun audio_module audio_module.py 
 ```
 
 If you also want to run the Evaluator:
 ```cmd
-rosrun ...
+rosrun evaluator evaluator.py 
 ```
 
 ## References
