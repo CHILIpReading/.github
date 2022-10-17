@@ -82,8 +82,15 @@ pip install -r requirements.txt
 To launch the full system, execute the following command (each command should be run on the computer wanted):
 ```cmd
 roslaunch state_manager launchfile.launch
+```
+```cmd
+cd VSR
 rosrun video_module video.py 
+```
+```cmd
 rosrun visual_module visual_module.py
+```
+```cmd
 rosrun audio_module audio_module.py 
 ```
 
