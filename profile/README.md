@@ -103,7 +103,7 @@ rosrun evaluator evaluator.py
 <a name="troubleshoot"/> 
 
 # Troubleshoot
-##Deleting Husarnet
+## Deleting Husarnet
 ```cmd
 sudo apt-get remove husarnet
 sudo rm -r /var/lib/husarnet
