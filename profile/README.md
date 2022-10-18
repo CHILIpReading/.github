@@ -18,7 +18,7 @@ For more information, see the report of the [project](https://github.com/CHILIpR
 [Server Overview](#so)  
 [Visual speech recognition](#vsr)   
 [Installation](#installation)   
-[Launch](#launch)
+[Launch](#launch)  
 [Troubleshoot](#troubleshoot) 
 
 <a name="ro"/> 
