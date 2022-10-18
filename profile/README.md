@@ -18,7 +18,8 @@ For more information, see the report of the [project](https://github.com/CHILIpR
 [Server Overview](#so)  
 [Visual speech recognition](#vsr)   
 [Installation](#installation)   
-[Launch](#launch)   
+[Launch](#launch)
+[Troubleshoot](#troubleshoot) 
 
 <a name="ro"/> 
 
@@ -99,6 +100,7 @@ If you also want to run the Evaluator:
 rosrun evaluator evaluator.py 
 ```
 
+<a name="troubleshoot"/> 
 # Troubleshoot
 ##Deleting Husarnet
 ```cmd
