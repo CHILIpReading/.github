@@ -109,7 +109,7 @@ sudo apt-get remove husarnet
 sudo rm -r /var/lib/husarnet
 ```
 
-## References
+# References
 <a id="1">[1]</a> 
 Ma, Pingchuan and Petridis, Stavros and Pantic, Maja (2021). 
 [End-to-end audio-visual speech recognition with conformers](https://github.com/mpc001/Visual_Speech_Recognition_for_Multiple_Languages)
