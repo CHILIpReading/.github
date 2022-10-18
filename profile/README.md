@@ -99,6 +99,13 @@ If you also want to run the Evaluator:
 rosrun evaluator evaluator.py 
 ```
 
+# Troubleshoot
+##Deleting Husarnet
+```cmd
+sudo apt-get remove husarnet
+sudo rm -r /var/lib/husarnet
+```
+
 ## References
 <a id="1">[1]</a> 
 Ma, Pingchuan and Petridis, Stavros and Pantic, Maja (2021). 
